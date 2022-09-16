@@ -5,7 +5,7 @@ matplotlib
 numpy
 pickle-mixin==1.0.2
 plotly
-urllib
+urllib3==1.26.4
 json
 streamlit==0.89.0
 scikit-learn==0.24.2
