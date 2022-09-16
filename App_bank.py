@@ -11,7 +11,6 @@ from PIL import Image
 import pickle
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
-import matplotlib.lines as mlines
 import seaborn as sns
 import shap
 from sklearn.metrics import confusion_matrix
@@ -27,7 +26,6 @@ import plotly.figure_factory as ff
 from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
-import time
 import streamlit.components.v1 as components
 
 # Chargement des features importance de ligthgbm
