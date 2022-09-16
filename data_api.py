@@ -8,10 +8,10 @@ import streamlit.components.v1 as components
 sample_size = 20000
 def load_all_data(sample_size):
     
-    data = pd.read_csv("data/dataset_exported.csv",nrows=sample_size)
+    data = pd.read_csv("./data/dataset_exported.csv",nrows=sample_size)
 
     
-    y_pred_test_export = pd.read_csv("data/y_pred_test_export.csv")
+    y_pred_test_export = pd.read_csv("./data/y_pred_test_export.csv")
 
     #Preparation des données age
     data['DAYS_BIRTH']= data['DAYS_BIRTH']/-365
