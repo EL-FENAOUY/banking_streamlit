@@ -4,7 +4,7 @@ lightgbm
 matplotlib
 numpy
 pickle-mixin==1.0.2
-plotly
+plotly==5.1.0
 urllib3==1.26.4
 json
 streamlit==0.89.0
