@@ -478,15 +478,15 @@ def affiche_facteurs_influence():
 # IMAGES
 # ====================================================================
 # Logo de l'entreprise                  
-logo =  Image.open("./Logo.png")
+#logo =  Image.open("./Logo.png")
 
 
 # --------------------------------------------------------------------
 # LOGO
 # --------------------------------------------------------------------
 # Chargement du logo de l'entreprise
-st.sidebar.image(logo, width=240, caption=" Dashboard - Aide à la décision",
-                 use_column_width='always')                             
+#st.sidebar.image(logo, width=240, caption=" Dashboard - Aide à la décision",
+                 #use_column_width='always')                             
 
 # ====================================================================
 # HEADER - TITRE
