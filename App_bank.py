@@ -1,8 +1,8 @@
 # ====================================================================
 # Chargement des librairies
 # ====================================================================
-import sys
-sys.setrecursionlimit(3000)
+#import sys
+#sys.setrecursionlimit(3000)
 
 import streamlit as st
 import numpy as np
@@ -16,7 +16,7 @@ import shap
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import roc_curve
 from sklearn.metrics import auc
-import os
+#import os
 from urllib.request import urlopen
 import json
 from data_api import *
@@ -24,8 +24,6 @@ import time
 import plotly.express as px
 import plotly.figure_factory as ff
 from matplotlib.figure import Figure
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 import streamlit.components.v1 as components
 
 # Chargement des features importance de ligthgbm
