@@ -10,4 +10,4 @@ json
 streamlit==0.89.0
 scikit-learn==0.24.2
 seaborn==0.11.1
-streamlit==0.89.0
+
