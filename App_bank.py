@@ -19,6 +19,7 @@ from sklearn.metrics import auc
 #import os
 from urllib.request import urlopen
 import json
+import shap
 from data_api import *
 import time
 import plotly.express as px
