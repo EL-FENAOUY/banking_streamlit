@@ -10,4 +10,6 @@ jsonschema==3.2.0
 streamlit==0.89.0
 scikit-learn
 seaborn
+json==2.0.9
 shap
+
