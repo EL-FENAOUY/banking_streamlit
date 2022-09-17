@@ -2,7 +2,7 @@ pandas
 gunicorn
 matplotlib
 numpy
-json==2.0.9
+json
 shap
 pickle-mixin==1.0.2
 plotly==5.1.0
