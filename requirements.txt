@@ -1,7 +1,6 @@
 pandas
 gunicorn
 matplotlib
-numpy
 json
 shap
 pickle-mixin==1.0.2
